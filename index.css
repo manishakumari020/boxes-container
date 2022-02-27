@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.box-background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box-header {
+  font-size: 40px;
+  color: #0f172a;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+}
+
+.small-box {
+  background-color: #fbbf24;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .small-box {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .small-box {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .small-box {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  width: 160px;
+  height: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .medium-box {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .medium-box {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .medium-box {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+.large-box {
+  background-color: #ec4899;
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .large-box {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .large-box {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .large-box {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+.box-heading {
+  font-family: "Bree Serif";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .box-heading {
+    font-size: 25px;
+  }
+}
